@@ -7,7 +7,8 @@ a  {
  color: #fff;
  }
 body  {
- height:1080px; 
+ height:1080px;
+ width:100%;
  }
 #onpage a  {
  text-decoration: underline overline ;
@@ -19,7 +20,6 @@ body  {
  position:sticky;
  float:left;
  top:0%;
- overflow: hidden;
  z-index: 1;
  }
 #main-navbar  ul{
@@ -41,16 +41,17 @@ padding-right: 5%;
  opacity: 0.75;
  }
 #navbar-container  {
-width: 80%;  
+width: 80%;
+overflow: hidden;
  }
 #sidebar  {
  display: block;
  position: fixed;
  background-color: red; 
  text-align: center;
- height: 100%;
  right:0%;
  width: 20%;
+ height:100%;
  display: flex;
  flex-direction: column;
  justify-content: space-evenly;
@@ -69,7 +70,6 @@ width: 80%;
  opacity: 0.75;
  }
 #sidebar-container  {
-  overflow: hidden;
-  height:100%;
-  padding-top: 10%
+ overflow:hidden;
+ height:auto;
   }
