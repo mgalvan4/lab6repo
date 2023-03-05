@@ -6,6 +6,9 @@ a  {
  text-decoration: none;
  color: #fff;
  }
+body  {
+ height:1080px; 
+ }
 #onpage a  {
  text-decoration: underline overline ;
  text-decoration-color: red;
@@ -13,8 +16,11 @@ a  {
 #main-navbar  {
  background-color: blue;
  width: 100%;
- position:relative;
+ position:sticky;
+ float:left;
+ top:0%;
  overflow: hidden;
+ z-index: 1;
  }
 #main-navbar  ul{
   display: flex;
@@ -48,6 +54,7 @@ width: 80%;
  display: flex;
  flex-direction: column;
  justify-content: space-evenly;
+ z-index: 0;
  }
 #sidebar ul  {
   display:block;
@@ -63,5 +70,6 @@ width: 80%;
  }
 #sidebar-container  {
   overflow: hidden;
-  height:95%;
+  height:100%;
+  padding-top: 10%
   }
