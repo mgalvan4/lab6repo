@@ -4,15 +4,15 @@ ul li {
 }
 a  {
  text-decoration: none;
- color: #fff;
+ color: #fff;        
 }
 body  {
  height:1080px;
- width:100%;
+ width:100%;         
 }
 #onpage a  {
  text-decoration: underline overline ;
- text-decoration-color: red;
+ text-decoration-color: red;      
 }
 #main-navbar  {
  background-color: blue;
@@ -38,11 +38,11 @@ padding-right: 5%;
 }
 #main-navbar  ul li:hover{
  background: #000;
- opacity: 0.75;
+ opacity: 0.75;     
 }
 #navbar-container  {
 width: 80%;
-overflow: hidden;
+overflow: hidden;          
 }
 #sidebar  {
  display: block;
